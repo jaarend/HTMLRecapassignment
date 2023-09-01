@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YouTube 2 VHS</title>
+  </head>
+  <body>
+    <nav>
+      <h1> YouTube 2 VHS | 
+        <a href="#home">Home</a> | <a href="#contact">Contact</a> |
+        <a href="#about">About</a>
+      </h1>
+    </nav>
+
+    <div>
+      <h1>Video of the Day</h1>
+    </div>
+    <div>
+      <iframe
+        width="1019"
+        height="500"
+        src="https://www.youtube.com/embed/Kp5A_1UAJog"
+        title="Soulja Boy Drags Tyga, Drake, Kanye West &amp; Reclaims The Best Comeback Of 2018"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+    </div>
+
+    <div>
+      <h2>
+        Enter your name, address, and payment information and we'll send your
+        VHS!
+      </h2>
+      <h2>Price:$29.99</h2>
+    </div>
+    <div style="width: 500; height: 500">
+      <form action="/submit_request" method="post">
+        <fieldset>
+          <legend>Contact Info and Address</legend>
+          <label for="fname">First Name:</label><br />
+          <input type="text" id="fname" name="fname" /><br />
+          <label for="lname">Last Name:</label><br />
+          <input type="text" id="lname" name="lname" /><br />
+          <label for="lname">Phone Number</label><br />
+          <input type="number" id="lname" name="lname" /><br />
+          <label for="address">Address:</label><br />
+          <input type="text" id="address" name="address" /><br />
+          <br />
+        </fieldset>
+        <fieldset>
+          <legend>Payment</legend>
+          <label for="fname">Credit/Debt Card:</label><br />
+          <input type="number" id="fname" name="fname" /><br />
+          <label for="address">Billing Address:</label><br />
+          <input type="text" id="address" name="address" /><br />
+          <br />
+          <input type="submit" value="Submit" />
+        </fieldset>
+      </form>
+    </div>
+  </body>
+</html>
